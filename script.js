@@ -5,6 +5,7 @@ $(".menu-trigger").on("click", function () {
 });
 $(".main-nav li").on("click", function () {
   $(".menu-trigger").addClass("active");
+  $(".main-nav").removeClass("active");
 });
 
 function scrollToAnyPoint(navItem) {
