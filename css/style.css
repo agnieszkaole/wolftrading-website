@@ -478,9 +478,6 @@ footer {
 }
 
 @media (min-width: 640px) {
-  header .wrapper .content .logo {
-    font-size: 38px;
-  }
   .home .wrapper .heading-container h1 {
     font-size: 48px;
     max-width: 500px;
@@ -495,7 +492,7 @@ footer {
     padding: 10px;
   }
 }
-@media (min-width: 640px) and (min-width: 1024px) {
+@media (min-width: 1024px) {
   header .wrapper .content {
     width: 98%;
     max-width: 1400px;
@@ -580,7 +577,7 @@ footer {
     width: 60%;
   }
 }
-@media (min-width: 640px) and (min-width: 1200px) {
+@media (min-width: 1200px) {
   header .wrapper .content {
     width: 95%;
     max-width: 1440px;
@@ -593,7 +590,7 @@ footer {
     font-size: 18px;
   }
 }
-@media (min-width: 640px) and (min-width: 1300px) {
+@media (min-width: 1300px) {
   header .wrapper .content .main-nav ul li {
     width: 180px;
   }
